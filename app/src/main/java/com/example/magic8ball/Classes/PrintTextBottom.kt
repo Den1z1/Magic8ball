@@ -13,7 +13,7 @@ class ChangeTextBottom() {
         when(buttonTalk){
             0 -> buttonAsk.text = "Ask more!"
             1 -> buttonAsk.text = "Do not be shy!"
-            2 -> buttonAsk.text = "Click me!" 
+            2 -> buttonAsk.text = "Click me!"
         }
     }
 }
