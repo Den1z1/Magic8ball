@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
     fun clickButton(view: View) {
         val toast = Toast.makeText(this, "Click on the button.", Toast.LENGTH_SHORT)
         toast.show()
+        println(1)
     }
 }
 
